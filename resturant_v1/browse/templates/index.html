@@ -1,0 +1,959 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nazareth Restaurants</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="{{url_for('static',filename='https://fonts.googleapis.com/css?family=Rubik:400,700')}}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='fonts/icomoon/style.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/owl.theme.default.min.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap-datepicker.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='fonts/flaticon/font/flaticon.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/aos.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/rangeslider.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-white h2 mb-0">Nazareth Restaurants</a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html"><span>Home</span></a></li>
+                
+                <li><a href="/listings"><span>Listings</span></a></li>
+                <li><a href="/about"><span>About</span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(https://i1.wp.com/mosaictourism.ps/wp-content/uploads/2018/08/liwan_cafe_nazareth4.jpg?fit=1422%2C800&ssl=1);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-10">
+            
+            
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-10 text-center">
+                <h1 data-aos="fade-up">Find Nearby <span> Restaurants </span></h1>
+                <p data-aos="fade-up" class=" w-75 mx-auto">Find the best and nearby restaurants.</p>
+              </div>
+            </div>
+
+            <div class="form-search-wrap p-2" data-aos="fade-up" data-aos-delay="200">
+              <form method="post">
+                <div class="row align-items-center">
+                  <div class="col-lg-12 col-xl-4 no-sm-border border-right">
+                    <input type="text" class="form-control" placeholder="What are you looking for?">
+                  </div>
+                  <div class="col-lg-12 col-xl-3 no-sm-border border-right">
+                    <div class="wrap-icon">
+                      <span class="icon icon-room"></span>
+                      <input type="text" class="form-control" placeholder="Location">
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-12 col-xl-3">
+                    <div class="select-wrap">
+                      <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
+                      <select class="form-control" name="" id="">
+                        <option value="">All Categories</option>
+                        <option value="">Hotels</option>
+                        <option value="">Restaurant</option>
+                        <option value="">Eat &amp; Drink</option>
+                        <option value="">Events</option>
+                        <option value="">Fitness</option>
+                        <option value="">Others</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-2 ml-auto text-right">
+                    <input type="submit" class="btn text-white btn-primary" value="Search">
+                  </div>
+                  
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    
+    
+      
+    
+    <div class="site-section" data-aos="fade">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Most Visited Places</h2>
+            <p class="color-black-opacity-5">Best restaurants in town</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-lg-4 col-lg-4">
+            
+            <div class="listing-item">
+              <div class="listing-image">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/8e/b8/2a/photo2jpg.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              </div>
+              <div class="listing-item-content">
+                <a href="listings-single.html" class="bookmark" data-toggle="tooltip" data-placement="left" title="Bookmark"><span class="icon-heart"></span></a>
+<!--                 <a class="px-3 mb-3 category" href="#">Hotels</a> -->
+                <h2 class="mb-1"><a href="listings-single.html">Cafe Greg</a></h2>
+                <span class="address">Old City, Nazareth</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-4 col-lg-4">
+            
+            <div class="listing-item">
+              <div class="listing-image">
+                <img src="data:image/jpeg;base64,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" alt="Free Website Template by Free-Template.co" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              </div>
+              <div class="listing-item-content">
+                <a href="listings-single.html" class="bookmark"><span class="icon-heart"></span></a>
+<!--                 <a class="px-3 mb-3 category" href="#">Restaurants</a> -->
+                <h2 class="mb-1"><a href="listings-single.html">Y.M.C.A</a></h2>
+                <span class="address">Nazareth</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-4 col-lg-4">
+            
+            <div class="listing-item">
+              <div class="listing-image">
+                <img src="https://www.nazareth360.com/sites//default/files/gallery_img/25.jpg" class="img-fluid">
+              </div>
+              <div class="listing-item-content">
+                <a href="listings-single.html" class="bookmark"><span class="icon-heart"></span></a>
+<!--                 <a class="px-3 mb-3 category" href="#">Events</a> -->
+                <h2 class="mb-1"><a href="listings-single.html">Bayat</a></h2>
+                <span class="address">Old City, Nazareth</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 mb-4 mb-lg-4 col-lg-4">
+            
+            <div class="listing-item">
+              <div class="listing-image">
+                <img src="https://www.nrmary.com/uploads/4/8/0/8/48088331/88808_orig.jpg" class="img-fluid">
+              </div>
+              <div class="listing-item-content">
+                <a href="listings-single.html" class="bookmark" data-toggle="tooltip" data-placement="left" title="Bookmark"><span class="icon-heart"></span></a>
+<!--                 <a class="px-3 mb-3 category" href="#">Others</a> -->
+                <h2 class="mb-1"><a href="listings-single.html">RoseMary</a></h2>
+                <span class="address">Old City, Nazareth</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-4 col-lg-4">
+            
+            <div class="listing-item">
+              <div class="listing-image">
+                <img src="https://www.nazareth360.com/sites//default/files/600451_489813647768189_1439890877_n.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              </div>
+              <div class="listing-item-content">
+                <a href="listings-single.html" class="bookmark"><span class="icon-heart"></span></a>
+<!--                 <a class="px-3 mb-3 category" href="#">Spa</a> -->
+                <h2 class="mb-1"><a href="listings-single.html">Ronen</a></h2>
+                <span class="address">Old City, Nazareth</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-4 col-lg-4">
+            
+            <div class="listing-item">
+              <div class="listing-image">
+                <img src="https://www.nazareth360.com/sites//default/files/gallery_img/10.jpg" class="img-fluid">
+              </div>
+              <div class="listing-item-content">
+                <a href="listings-single.html" class="bookmark"><span class="icon-heart"></span></a>
+<!--                 <a class="px-3 mb-3 category" href="#">Stores</a> -->
+                <h2 class="mb-1"><a href="listings-single.html">Tishreen</a></h2>
+                <span class="address">Old City, Nazareth</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<!--     <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Popular Categories</h2>
+            <p class="color-black-opacity-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch">
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-hotel"></span></span>
+              <span class="caption mb-2 d-block">Hotels</span>
+              <span class="number">4,89</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-microphone"></span></span>
+              <span class="caption mb-2 d-block">Events</span>
+              <span class="number">482</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-flower"></span></span>
+              <span class="caption mb-2 d-block">Spa</span>
+              <span class="number">194</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-restaurant"></span></span>
+              <span class="caption mb-2 d-block">Stores</span>
+              <span class="number">1,472</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-cutlery"></span></span>
+              <span class="caption mb-2 d-block">Restaurants</span>
+              <span class="number">439</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-bike"></span></span>
+              <span class="caption mb-2 d-block">Other</span>
+              <span class="number">692</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center tex-center">
+          <div class="col-md-4"><a href="#" class="btn btn-block btn-outline-primary btn-md px-5">View All Categories</a></div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <img src="images/img_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid rounded">
+          </div>
+          <div class="col-md-5 ml-auto">
+            <h2 class="text-primary mb-3">Why Us</h2>
+            <div class="row mt-4">
+              <div class="col-12">
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-1" role="button" aria-expanded="false" aria-controls="collapse-1" class="accordion-item h5 d-block mb-0">How to list my item?</a>
+
+                  <div class="collapse" id="collapse-1">
+                    <div class="pt-2">
+                      <p class="mb-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-4" role="button" aria-expanded="false" aria-controls="collapse-4" class="accordion-item h5 d-block mb-0">Is this available in my country?</a>
+
+                  <div class="collapse" id="collapse-4">
+                    <div class="pt-2">
+                      <p class="mb-0">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2" class="accordion-item h5 d-block mb-0">Is it free?</a>
+
+                  <div class="collapse" id="collapse-2">
+                    <div class="pt-2">
+                      <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3" class="accordion-item h5 d-block mb-0">How the system works?</a>
+
+                  <div class="collapse" id="collapse-3">
+                    <div class="pt-2">
+                      <p class="mb-0">The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">How It Works</h2>
+            <p class="color-black-opacity-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
+            <div class="how-it-work-step">
+              <div class="img-wrap">
+                <img src="images/step-1.svg" alt="Free website template by Free-Template.co" class="img-fluid">
+              </div>
+              <span class="number">1</span>
+              <h3>Decide What To Do</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
+            <div class="how-it-work-step">
+              <div class="img-wrap">
+                <img src="images/step-2.svg" alt="Free website template by Free-Template.co" class="img-fluid">
+              </div>
+              <span class="number">2</span>
+              <h3>Find What You Want</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
+            <div class="how-it-work-step">
+              <div class="img-wrap">
+                <img src="images/step-3.svg" alt="Free website template by Free-Template.co" class="img-fluid">
+              </div>
+              <span class="number">3</span>
+              <h3>Explore Amazing Places</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-section bg-light">
+      <div class="container">
+
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Satisfied Customers</h2>
+          </div>
+        </div>
+
+        <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_3_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Willie Smith</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_2_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Robert Jones</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_4_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Peter Richmond</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_5_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Bruce Rogers</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Tips &amp; Articles</h2>
+            <p class="color-black-opacity-5">See Our Daily tips &amp; articles</p>
+          </div>
+        </div>
+        <div class="row mb-3 align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/img_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              <div class="h-entry-inner">
+                <h2 class="font-size-regular"><a href="#">Etiquette tips for travellers</a></h2>
+                <div class="meta mb-4">by <a href="#">Jeff Sheldon</a> <span class="mx-2">&bullet;</span> May 5th, 2019</div>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/img_2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              <div class="h-entry-inner">
+                <h2 class="font-size-regular"><a href="#">Etiquette tips for travellers</a></h2>
+                <div class="meta mb-4">by <a href="#">Jeff Sheldon</a> <span class="mx-2">&bullet;</span> May 5th, 2019</div>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/img_3.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              <div class="h-entry-inner">
+                <h2 class="font-size-regular"><a href="#">Etiquette tips for travellers</a></h2>
+                <div class="meta mb-4">by <a href="#">Jeff Sheldon</a> <span class="mx-2">&bullet;</span> May 5th, 2019</div>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="py-5 bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mr-auto mb-4 mb-lg-0">
+            <h2 class="mb-3 mt-0 text-white">Let's get started. Create your account</h2>
+            <p class="mb-0 text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+          <div class="col-lg-4">
+            <p class="mb-0"><a href="signup.html" class="btn btn-outline-white text-white btn-md px-5 font-weight-bold btn-md-block">Sign Up</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Products</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <form action="#" method="post">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control bg-transparent" -     <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Popular Categories</h2>
+            <p class="color-black-opacity-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch">
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-hotel"></span></span>
+              <span class="caption mb-2 d-block">Hotels</span>
+              <span class="number">4,89</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-microphone"></span></span>
+              <span class="caption mb-2 d-block">Events</span>
+              <span class="number">482</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-flower"></span></span>
+              <span class="caption mb-2 d-block">Spa</span>
+              <span class="number">194</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-restaurant"></span></span>
+              <span class="caption mb-2 d-block">Stores</span>
+              <span class="number">1,472</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-cutlery"></span></span>
+              <span class="caption mb-2 d-block">Restaurants</span>
+              <span class="number">439</span>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-2">
+            <a href="#" class="popular-category h-100">
+              <span class="icon mb-3"><span class="flaticon-bike"></span></span>
+              <span class="caption mb-2 d-block">Other</span>
+              <span class="number">692</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center tex-center">
+          <div class="col-md-4"><a href="#" class="btn btn-block btn-outline-primary btn-md px-5">View All Categories</a></div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <img src="images/img_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid rounded">
+          </div>
+          <div class="col-md-5 ml-auto">
+            <h2 class="text-primary mb-3">Why Us</h2>
+            <div class="row mt-4">
+              <div class="col-12">
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-1" role="button" aria-expanded="false" aria-controls="collapse-1" class="accordion-item h5 d-block mb-0">How to list my item?</a>
+
+                  <div class="collapse" id="collapse-1">
+                    <div class="pt-2">
+                      <p class="mb-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-4" role="button" aria-expanded="false" aria-controls="collapse-4" class="accordion-item h5 d-block mb-0">Is this available in my country?</a>
+
+                  <div class="collapse" id="collapse-4">
+                    <div class="pt-2">
+                      <p class="mb-0">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2" class="accordion-item h5 d-block mb-0">Is it free?</a>
+
+                  <div class="collapse" id="collapse-2">
+                    <div class="pt-2">
+                      <p class="mb-0">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 rounded mb-2">
+                  <a data-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3" class="accordion-item h5 d-block mb-0">How the system works?</a>
+
+                  <div class="collapse" id="collapse-3">
+                    <div class="pt-2">
+                      <p class="mb-0">The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">How It Works</h2>
+            <p class="color-black-opacity-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
+            <div class="how-it-work-step">
+              <div class="img-wrap">
+                <img src="images/step-1.svg" alt="Free website template by Free-Template.co" class="img-fluid">
+              </div>
+              <span class="number">1</span>
+              <h3>Decide What To Do</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
+            <div class="how-it-work-step">
+              <div class="img-wrap">
+                <img src="images/step-2.svg" alt="Free website template by Free-Template.co" class="img-fluid">
+              </div>
+              <span class="number">2</span>
+              <h3>Find What You Want</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
+            <div class="how-it-work-step">
+              <div class="img-wrap">
+                <img src="images/step-3.svg" alt="Free website template by Free-Template.co" class="img-fluid">
+              </div>
+              <span class="number">3</span>
+              <h3>Explore Amazing Places</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-section bg-light">
+      <div class="container">
+
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Satisfied Customers</h2>
+          </div>
+        </div>
+
+        <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_3_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Willie Smith</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_2_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Robert Jones</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_4_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Peter Richmond</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4">
+                <img src="images/person_5_sq.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-3">
+                <p>Bruce Rogers</p>
+              </figure>
+              <blockquote>
+                <p>&ldquo;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="font-weight-light text-primary">Tips &amp; Articles</h2>
+            <p class="color-black-opacity-5">See Our Daily tips &amp; articles</p>
+          </div>
+        </div>
+        <div class="row mb-3 align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/img_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              <div class="h-entry-inner">
+                <h2 class="font-size-regular"><a href="#">Etiquette tips for travellers</a></h2>
+                <div class="meta mb-4">by <a href="#">Jeff Sheldon</a> <span class="mx-2">&bullet;</span> May 5th, 2019</div>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/img_2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              <div class="h-entry-inner">
+                <h2 class="font-size-regular"><a href="#">Etiquette tips for travellers</a></h2>
+                <div class="meta mb-4">by <a href="#">Jeff Sheldon</a> <span class="mx-2">&bullet;</span> May 5th, 2019</div>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/img_3.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+              <div class="h-entry-inner">
+                <h2 class="font-size-regular"><a href="#">Etiquette tips for travellers</a></h2>
+                <div class="meta mb-4">by <a href="#">Jeff Sheldon</a> <span class="mx-2">&bullet;</span> May 5th, 2019</div>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="py-5 bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mr-auto mb-4 mb-lg-0">
+            <h2 class="mb-3 mt-0 text-white">Let's get started. Create your account</h2>
+            <p class="mb-0 text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+          <div class="col-lg-4">
+            <p class="mb-0"><a href="signup.html" class="btn btn-outline-white text-white btn-md px-5 font-weight-bold btn-md-block">Sign Up</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Products</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
+                <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <form action="#" method="post">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5">
+          <div class="col-12 text-md-center text-left">
+            <p>
+            Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<!--             </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+ </div>placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5">
+          <div class="col-12 text-md-center text-left">
+            <p>
+            Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+  <script src="{{url_for('static',filename='js/jquery-3.3.1.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery-migrate-3.0.1.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery-ui.js')}}"></script>
+  <script src="{{url_for('static',filename='js/popper.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/owl.carousel.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery.stellar.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery.countdown.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery.magnific-popup.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/bootstrap-datepicker.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/aos.js')}}"></script>
+  <script src="{{url_for('static',filename='js/rangeslider.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static',filename=api.js')}}"></script>
+  
+
+  <script src="{{url_for('static',filename='js/typed.js')}}"></script>
+            <script>
+            var typed = new Typed('.typed-words', {
+            strings: ["Attractions"," Events"," Hotels", " Restaurants"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+            });
+            </script>
+
+  <script src="{{url_for('static',filename='js/main.js')}}"></script>
+  
+  </body>
+</html>
